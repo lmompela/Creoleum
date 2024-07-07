@@ -9,3 +9,6 @@ Project Creole at UM - Kréyolum
 
 - Once the dataset is cleaned up, one sentence per line and with different levels of CS, finetune a language model using these different thresholds and test whether it can adequately reproduce CS sentences. Then test if it can interact and interpret correclty the command. Use it for an interpreter capable of using the same amount of code-switching as the person that's talking and adapat accordingly.
 - 
+Check if it's because of the Kréyolad that we see all these utf-8 characters. If so, just recollect everything about Jid, and ignore him from the articles collected out of Montray Kreyol. Or build a data checker that make sure that we don't copy the same article. 
+
+NLTK package show all characters in document. 
