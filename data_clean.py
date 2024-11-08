@@ -44,7 +44,9 @@ if __name__ == "__main__":
 
     # Save the cleaned content to a file
     with open(cleaned_file, 'w', encoding='utf-8') as file:
-        file.write(cleaned_content)
+        cnt = 1
+        file.write(cnt + "\t" + cleaned_content)
+        cnt +=1
 
     # Compare the original and cleaned datasets
     compare_datasets(input_file, cleaned_content)
