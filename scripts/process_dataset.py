@@ -9,6 +9,7 @@ import nltk
 
 # Ensure sentence tokenizer models are available
 nltk.download('punkt')
+nltk.download('punkt_tab')
 
 from nltk.tokenize import sent_tokenize
 
